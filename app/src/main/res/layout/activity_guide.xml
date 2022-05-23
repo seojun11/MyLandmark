@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".GuideActivity">
+    <TableRow>
+        <TextView android:text="운영안내"
+            style="@style/title_style"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="평일"/>
+        <TextView android:text="AM 09:00~PM 19:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="주말"/>
+        <TextView android:text="AM 09:00~PM 22:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="공휴일"/>
+        <TextView android:text="AM 09:00~PM 21:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="매주 월요일"/>
+        <TextView android:text="AM 09:00~PM 15:00"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="오시는길"
+            style="@style/title_style"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico01"/>
+        <TextView android:text="[주소]경기도 춘천 닭갈비집 옆에옆에"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico02"/>
+        <TextView android:text="[주변역]춘천레고랜드역"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView android:src="@drawable/sub01_ico03"/>
+        <TextView android:text="[주변 버스정류장]춘천 3대 닭갈비집 정류장 "/>
+    </TableRow>
+
+
+
+</TableLayout>
