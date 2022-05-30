@@ -33,7 +33,9 @@
             android:layout_span="2"/>
     </TableRow>
     <TableRow>
-        <ImageView android:src="@drawable/sub01_ico01"/>
+        <ImageView
+            android:id="@+id/img_map"
+            android:src="@drawable/sub01_ico01"/>
         <TextView android:text="[주소]경기도 춘천 닭갈비집 옆에옆에"/>
     </TableRow>
 

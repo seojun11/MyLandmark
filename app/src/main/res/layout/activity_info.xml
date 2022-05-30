@@ -18,12 +18,12 @@
         android:layout_margin="10dp"/>
 
     <ImageView
+        android:id="@+id/image_info"
         android:layout_width="wrap_content"
         android:layout_height="440dp"
-        android:src="@drawable/info1"
         android:layout_below="@+id/title_info"
-        android:id="@+id/image_info"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_1" />
 
     <TextView
         android:layout_width="wrap_content"
